@@ -7,7 +7,7 @@ main(){
     f=m_of_5(a,b,c,d,e);
     printf("%d",f);
 }
-m_of_5(int a,int b,int c,int d,int e){
+int m_of_5(int a,int b,int c,int d,int e){
     int f;
     f=a*b*c*d*e;
     return f;
