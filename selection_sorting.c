@@ -1,6 +1,6 @@
-#include<stdio.h>
+ #include<stdio.h>
 int main(){
-    int n=5;
+    int n=7;
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
@@ -13,11 +13,12 @@ int main(){
                 arr[i]=temp;
                 
             }
-            for(int s=0;s<=4;s++){
-                    printf("%d",arr[s]);
+            
+        }
+        for(int s=0;s<=6;s++){
+                    printf("%d\t",arr[s]);
                 }
                 printf("\n");
-        }
     }
     printf("Sorted elements are :-");
     for(int i=0;i<=4;i++){
