@@ -17,6 +17,7 @@ return 0;
 int peek() {
 return stack[top];
 }
+//pop
 int pop() {
 int data;
 if(!isempty()) {
@@ -27,6 +28,7 @@ return data;
 printf("Could not retrieve data, Stack is empty.\n");
 }
 }
+//pop
 int push(int data) {
 if(!isfull()) {
 top = top + 1;
@@ -45,9 +47,6 @@ push(1);
 push(12);
 push(15);
 push(12);
-push(3);
-push(5);
-push(5);
 //We shall see the stack implementation in C programming language here.
 //STACK PROGRAM IIN C
 
